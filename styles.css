@@ -1,2 +1,38 @@
 
 /* Your CSS Code here. */
+ nav {
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+h1 {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+.videos {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            padding: 2rem;
+        }
+
+        video {
+            width: 300px;
+            height: auto;
+            border: 1px solid #ccc;
+        }
